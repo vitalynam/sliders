@@ -14,7 +14,7 @@
 }
 .slide{
   width: 40%;
-  height: 60%;
+  height: 50%;
   padding: 5px;
   position: absolute;
   top: 20%;
@@ -45,4 +45,13 @@
 }
 .item-five{
   background-image: url('https://sun9-75.userapi.com/s/v1/ig2/NkoI9s_0I4zQaUF0XOJ26ee4zweRQzOA42MInk7RQ3LiyRz6pjg4YyKAE_DOC1SyjWxRhIVOk9zH5BXq7NhNMKs5.jpg?size=1024x683&quality=96&type=album');
+}
+
+
+@media (max-width: 850px) {
+  .slide{
+    height: 35%;
+    top: 30%;
+  }
+
 }
